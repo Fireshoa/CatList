@@ -1,0 +1,21 @@
+body {
+  background-color: beige;
+}
+
+.listEntry {
+  background-color: gray;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  transition: background-color 0.5s;
+}
+
+.listEntry:hover {
+  background-color: lightgray;
+}
+
+.listEntry h1,
+.listEntry p {
+  margin: 0px;
+  padding: 0px;
+}
