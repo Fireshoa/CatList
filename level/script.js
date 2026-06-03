@@ -31,8 +31,7 @@ fetch(
         victorsList.appendChild(victor);
 
         victor.addEventListener('click', (e) => {
-          window.location.href =
-            window.location.origin + '/user/index.html?username=' + user;
+          window.location.href = '../user/index.html?username=' + user;
         });
       });
     }
