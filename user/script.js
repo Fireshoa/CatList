@@ -1,4 +1,4 @@
-import { getUsr } from '/points.js';
+import { getUsr } from '../points.js';
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
