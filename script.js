@@ -32,8 +32,7 @@ fetch(
         document.body.appendChild(entryElem);
 
         entryElem.addEventListener('click', (e) => {
-          window.location.href =
-            window.location.origin + `./level/index.html?placement=${idx}`;
+          window.location.href = `./level/index.html?placement=${idx}`;
         });
       } else {
         const extElem = document.createElement('h1');
